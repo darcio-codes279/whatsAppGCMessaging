@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-scheduler",
+  "version": "1.0.0",
+  "description": "Bot to schedule WhatsApp messages to groups",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "multer": "^2.0.2",
+    "node-cron": "^3.0.2",
+    "puppeteer": "^24.15.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.22.1"
+  }
+}
