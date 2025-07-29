@@ -2,11 +2,11 @@
   {
     "groupName": "Family Chat",
     "message": "Good morning, fam! ☀️",
-    "cron": "0 9 * * *" 
+    "cron": "0 9 * * *"
   },
   {
     "groupName": "Work Group",
     "message": "Daily standup starts in 10 mins!",
-    "cron": "50 8 * * 1-5" 
+    "cron": "50 8 * * 1-5"
   }
 ]
