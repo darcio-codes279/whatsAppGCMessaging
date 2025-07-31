@@ -8,5 +8,17 @@
     "groupName": "Work Group",
     "message": "Daily standup starts in 10 mins!",
     "cron": "50 8 * * 1-5"
+  },
+  {
+    "id": "1753984062444",
+    "groupName": "TEST_WA_BOT",
+    "message": "testing 4 - scheduled message",
+    "cron": "50 18 31 7 *",
+    "description": "",
+    "endDate": null,
+    "maxOccurrences": null,
+    "currentOccurrences": 1,
+    "createdAt": "2025-07-31T17:47:42.444Z",
+    "createdBy": "447722559905@c.us"
   }
 ]

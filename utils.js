@@ -7,8 +7,8 @@ async function isUserAdmin(client, group, userId) {
     try {
         console.log('Checking admin status for user:', userId);
 
-        // Get group participants
-        const participants = await group.getParticipants();
+        // Get group participants from the participants property
+        const participants = group.participants || [];
         console.log('Total participants:', participants.length);
 
         // Find the user in participants
